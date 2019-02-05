@@ -5,7 +5,7 @@
   background-size: cover;
 
   &__text-box {
-    width: 60%;
+    width: 70%;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -20,11 +20,13 @@
     font-family: $fonte-two;
     font-size: 4rem;
     font-weight: 700;
+    text-transform: uppercase;
     margin-bottom: 2rem;
   }
 
   .heading__sub--intro {
     font-family: $fonte-two;
+    text-transform: uppercase;
     position: relative;
     &::before {
       content: "";
@@ -48,6 +50,7 @@
   }
 
   .paragraphy {
+    font-size: 1.2rem;
     margin-bottom: 3rem;
   }
 

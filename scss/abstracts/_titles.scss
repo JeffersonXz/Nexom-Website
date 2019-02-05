@@ -1,0 +1,18 @@
+.heading-text {
+  font-family: $fonte-two;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.paragraphy-text {
+  font-size: 1.3rem;
+}
+
+hr {
+  width: 100px;
+  display: inline-block;
+  border-bottom: 2px solid #b7b7b7;
+  border-top: none;
+}

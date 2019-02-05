@@ -1,0 +1,52 @@
+.servicos {
+  padding: 7rem 0;
+  text-align: center;
+
+  // Title
+  &__title {
+    width: 70%;
+    margin: auto;
+  }
+
+  // box
+  &__box {
+    margin-top: 7rem;
+  }
+
+  // icon
+  .fas {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 120px;
+    color: $color-primaria;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      border: 1px solid #d7d7d7;
+      transition: 0.4s;
+      transform: rotate(45deg);
+    }
+
+    &:hover::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: inline-block;
+      border: 1px solid #d7d7d7;
+      transition: 0.4s;
+      transform: rotate(180deg);
+    }
+  }
+}
