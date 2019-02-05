@@ -1,0 +1,23 @@
+@import "./mixin";
+
+.btn-custom {
+  @include buttoncustom;
+  background: $color-primaria;
+  color: #fff !important;
+  &:hover {
+    background: rgb(71, 71, 71);
+    color: #fff;
+  }
+}
+
+.btn-outline-custom {
+  @include buttoncustom;
+  border: 1px solid #fff;
+  color: #fff;
+
+  &:hover {
+    background: $color-primaria;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+}

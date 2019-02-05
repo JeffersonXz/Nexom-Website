@@ -1,0 +1,108 @@
+.btn-custom {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease-out;
+  box-sizing: border-box;
+  background: #47ab6c;
+  color: #fff !important; }
+  .btn-custom:hover {
+    background: #474747;
+    color: #fff; }
+
+.btn-outline-custom {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease-out;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  color: #fff; }
+  .btn-outline-custom:hover {
+    background: #47ab6c;
+    color: #fff;
+    border: 1px solid transparent; }
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/intro.jpeg");
+  background-size: cover; }
+  .header__text-box {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; }
+  .header .heading__main--intro {
+    font-family: "Roboto Slab", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .header .heading__sub--intro {
+    font-family: "Roboto Slab", serif;
+    position: relative; }
+    .header .heading__sub--intro::before {
+      content: "";
+      position: absolute;
+      top: 17px;
+      left: -100px;
+      width: 80px;
+      height: 2px;
+      background: #fff; }
+    .header .heading__sub--intro::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -100px;
+      width: 80px;
+      height: 2px;
+      background: #fff; }
+  .header .paragraphy {
+    margin-bottom: 3rem; }
+  .header .header__link-box a {
+    margin: 0 1rem; }
+
+.navbar-brand {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 2.5rem;
+  font-weight: 700; }
+
+.black {
+  background: #333; }
+
+.navbar-nav .nav-item {
+  padding: 0 1.2rem; }
+
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: #fff !important; }
+  .navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background: #47ab6c;
+    border-radius: 5px; }
+
+.navbar-nav .active {
+  color: #fff !important;
+  background: #47ab6c;
+  border-radius: 5px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333333;
+  height: 10000px; }
+
+img {
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden; }

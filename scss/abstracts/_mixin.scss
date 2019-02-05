@@ -1,0 +1,7 @@
+@mixin buttoncustom {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease-out;
+  box-sizing: border-box;
+}

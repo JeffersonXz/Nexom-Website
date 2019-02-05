@@ -1,0 +1,57 @@
+// Intro
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../img/intro.jpeg");
+  background-size: cover;
+
+  &__text-box {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .heading__main--intro {
+    font-family: $fonte-two;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .heading__sub--intro {
+    font-family: $fonte-two;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 17px;
+      left: -100px;
+      width: 80px;
+      height: 2px;
+      background: #fff;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -100px;
+      width: 80px;
+      height: 2px;
+      background: #fff;
+    }
+  }
+
+  .paragraphy {
+    margin-bottom: 3rem;
+  }
+
+  .header__link-box a {
+    margin: 0 1rem;
+  }
+}
