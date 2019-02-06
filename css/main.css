@@ -40,7 +40,7 @@ hr {
   border-top: none; }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/intro.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/intro.jpeg);
   background-size: cover;
   background-repeat: no-repeat; }
   .header__text-box {
