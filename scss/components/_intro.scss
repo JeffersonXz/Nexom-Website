@@ -23,6 +23,8 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    animation-name: moveLeft;
+    animation-duration: 2s;
   }
 
   .heading__sub--intro {
@@ -30,6 +32,8 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     position: relative;
+    animation-name: moveRight;
+    animation-duration: 2s;
 
     &::before {
       content: "";
@@ -59,5 +63,42 @@
 
   .header__link-box a {
     margin-bottom: 1rem;
+  }
+}
+
+// Animation
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: all ease-out 0.5s;
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all ease-out 0.5s;
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(500px);
+    transition: all ease-out 0.5s;
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all ease-out 0.5s;
   }
 }

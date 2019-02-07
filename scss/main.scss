@@ -2,7 +2,6 @@
 $fonte-one: "Raleway", sans-serif;
 $fonte-two: "Roboto Slab", serif;
 $fonte-tree: "Mr Dafoe", cursive;
-
 // Colors
 $color-primaria: #47ab6c;
 
@@ -14,6 +13,7 @@ $color-primaria: #47ab6c;
 @import "./components/intro";
 @import "./components/navbar";
 @import "./components/servicos";
+@import "./components/sobre";
 
 * {
   margin: 0px;
