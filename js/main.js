@@ -6,3 +6,9 @@ $(window).on("scroll", function() {
     $(".navbar").removeClass("black");
   }
 });
+
+// Contadores
+$(".counter").counterUp({
+  delay: 10,
+  time: 1000
+});

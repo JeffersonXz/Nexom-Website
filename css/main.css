@@ -39,6 +39,17 @@ hr {
   border-bottom: 2px solid #b7b7b7;
   border-top: none; }
 
+.contadores {
+  padding: 7rem 0;
+  text-align: center; }
+  .contadores__title {
+    margin-bottom: 5rem; }
+  .contadores .counter {
+    font-size: 5rem;
+    color: #47ab6c; }
+  .contadores__name {
+    font-size: 2rem; }
+
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/intro.jpeg);
   background-size: cover;
@@ -194,7 +205,8 @@ hr {
       transform: rotate(180deg); }
 
 .sobre {
-  padding: 7rem 0; }
+  padding: 7rem 0;
+  text-align: center; }
   .sobre__title {
     text-align: center; }
   .sobre__img-empresa {
